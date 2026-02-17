@@ -5,3 +5,21 @@
     Colores
     Body base 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-primary: "Didot", serif;
+    --font-secondary: "Playfair Display", serif;
+    --color-primary: #fcdae0;
+    --color-primary-dark: #9c0d7d;
+    --color-primary-hover: #c0374e;
+    --color-primary-light: #d49bda;
+    --color-background: #06182a;
+    --color-text-primary: #ffffff;
+    --color-text-secondary: #cbd5e1;
+}

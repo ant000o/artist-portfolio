@@ -4,3 +4,38 @@
     Grid principales
     Containers
 */
+
+/* Header */
+nav {
+    padding: 2rem;
+    background: transparent;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+nav li > a {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: 500;
+    font-size: 1.275rem;
+}
+
+nav li > a:hover, nav li > a:focus {
+    color: var(--color-primary-hover);
+}
+/* Footer */
+footer {
+    background: transparent;
+    padding: 1rem;
+    text-align: center;
+    /* always be at the bottom of the screen */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
