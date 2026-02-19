@@ -6,6 +6,10 @@
 */
 
 /* Header */
+header{
+    background: var(--nav-background);
+}
+
 nav {
     padding: 2rem;
     background: transparent;
@@ -34,8 +38,5 @@ footer {
     background: transparent;
     padding: 1rem;
     text-align: center;
-    /* always be at the bottom of the screen */
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    color: var(--color-primary);
 }

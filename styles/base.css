@@ -17,9 +17,15 @@
     --font-secondary: "Playfair Display", serif;
     --color-primary: #fcdae0;
     --color-primary-dark: #9c0d7d;
-    --color-primary-hover: #c0374e;
+    --color-primary-hover: #d3586d;
     --color-primary-light: #d49bda;
-    --color-background: #06182a;
+    --nav-background: #610935;
+    --color-background: #8f6a7e;
     --color-text-primary: #ffffff;
     --color-text-secondary: #cbd5e1;
+}
+
+body{
+    font-family: var(--font-primary);
+    color: var(--color-primary);
 }

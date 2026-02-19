@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Spiral Gaze",
+    "description": "Digital illustration of a child's portrait with a dreamlike spiral background",
+    "date": "2024",
+    "image": "./assets/images/girl_1.png"
+  },
+  {
+    "id": 2,
+    "title": "The Guardian of the Swamp",
+    "description": "Digital illustration of an ethereal female figure surrounded by dark vegetation",
+    "date": "2024",
+    "image": "./assets/images/girl_2.png"
+  },
+  {
+    "id": 3,
+    "title": "Body of Light",
+    "description": "Artistic study of a female figure in soft tones and a diffuse atmosphere",
+    "date": "2023",
+    "image": "./assets/images/girl_3.png"
+  },
+  {
+    "id": 4,
+    "title": "Feline Dream",
+    "description": "Digital illustration of a fantastical cat with luminous details and subtle wings",
+    "date": "2024",
+    "image": "./assets/images/background.png"
+  },
+  {
+    "id": 5,
+    "title": "The Girl and the Rabbit",
+    "description": "Digital illustration of a child's portrait with a symbolic element in a somber setting",
+    "date": "2023",
+    "image": "./assets/images/girl_4.png"
+  }
+]
