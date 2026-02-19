@@ -1,8 +1,8 @@
 /* 
     Reset
-    Variables CSS
-    Tipografías
-    Colores
+    CSS Variables
+    Typos
+    Colors
     Body base 
 */
 
@@ -16,13 +16,13 @@
     --font-primary: "Didot", serif;
     --font-secondary: "Playfair Display", serif;
     --color-primary: #fcdae0;
-    --color-primary-dark: #9c0d7d;
+    --color-primary-dark: #470238;
     --color-primary-hover: #d3586d;
     --color-primary-light: #d49bda;
-    --nav-background: #610935;
-    --color-background: #8f6a7e;
-    --color-text-primary: #ffffff;
-    --color-text-secondary: #cbd5e1;
+    --nav-background: #38061f;
+    --color-background: #ccb2c0;
+    --modal-text-primary: #535353;
+    --modal-text-secondary: #858585;
 }
 
 body{
