@@ -34,21 +34,48 @@ function renderArtworks(artworksArray){
   })
 }
 
-fetch('./data/artworks.json') // obtenemos el archivo data.json
+fetch('./data/artworks.json')
   .then((response) => {
-    // convertimos la respuesta a JSON
     return response.json()
   })
   .then((artworks) => {
-    // guardamos los datos originales
     allArtworks = artworks;
 
-    // pintamos todo por primera vez
     renderArtworks(allArtworks);
+
+
+    // IntersectionObserver to make a subtle reveal animation
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('reveal');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.5
+    });
+    
+    const drawings = document.querySelectorAll('.artwork')
+
+    drawings.forEach(drawing => {
+      observer.observe(drawing);
+    });
   })
 
 
-  
+
+
+
+
+
+
+
+
+
+
+/* MODAL */
+
 gallery.addEventListener('click', (event) => {
   const img = event.target.closest('.artwork img');
   
@@ -93,6 +120,18 @@ gallery.addEventListener('click', (event) => {
 
   modalImage.appendChild(imgElement)
   modalInfo.append(title, description, date)
+
+  const fullscreen = document.querySelector('.fullscreen-image')
+  const fullscreenImg = fullscreen.querySelector('img')
+
+  modalImage.addEventListener('click', () => {
+    fullscreenImg.src = imgElement.src;
+    fullscreen.classList.add('active')
+  });
+
+  fullscreen.addEventListener('click', () => {
+    fullscreen.classList.remove('active');
+  });
 })
 
 
@@ -116,3 +155,8 @@ document.addEventListener('keydown', (event) => {
     return
   }
 })
+
+
+
+
+

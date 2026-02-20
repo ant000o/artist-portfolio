@@ -142,3 +142,14 @@
 .modal-close:active {
     transform: scale(0.9);
 }
+
+
+
+.modal img {
+  cursor: zoom-in;
+}
+
+
+.fullscreen-image img {
+  cursor: zoom-out;
+}
