@@ -11,17 +11,34 @@
 }
 
 .image img{
-    width: 70%;
-    height: 70%;
+    max-width: 450px;
+    width: 100%;
+    height: auto;
     object-fit: contain;
 }
 
 .about{
     color: var(--color-primary-dark);
     padding: 6rem 2rem;
+    max-width: 600px;
 }
 
 .about p {
     width: 80%;
     margin-bottom: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .container{
+    grid-template-columns: 1fr;
+  }
+
+  .image{
+    justify-content: center;
+    padding-right: 0;
+  }
+
+  .about{
+    padding: 2rem;
+  }
 }
