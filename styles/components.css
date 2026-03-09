@@ -156,4 +156,85 @@
 
 
 
-/* COMMISSION FORM */
+
+/* FORM BOX */
+.commission-form form{
+    background: #ffffff;
+    border: 1px solid #f0efef;
+    border-radius: 1.5rem;
+    width: 100%;
+    max-width: 600px;
+    padding: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* LABELS */
+.commission-form label{
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+/* INPUTS */
+.commission-form input,
+.commission-form textarea{
+    width: 100%;
+    padding: 0.7rem 0.8rem;
+    border-radius: 0.6rem;
+    border: 1px solid #ddd;
+    font-size: 0.9rem;
+    transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.commission-form input:focus,
+.commission-form textarea:focus{
+    outline: none;
+    border-color: var(--color-primary-dark);
+    box-shadow: 0 0 0 3px rgba(124,108,255,0.15);
+}
+
+/* TEXTAREA */
+.commission-form textarea{
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* ARTWORK SECTION */
+.commission-form legend{
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.commission-form form div{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.commission-form input[type="checkbox"]{
+    width: auto;
+    accent-color: var(--color-primary-dark);
+}
+
+/* BUTTON */
+.commission-form button{
+    margin-top: 1rem;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 0.7rem;
+    background: var(--color-primary-dark);
+    color: white;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.commission-form button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}

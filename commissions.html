@@ -163,7 +163,46 @@
 
 
         <section class="commission-form">
-            <form action=""></form>
+
+            <h2>Send me an email</h2>
+
+            <form action="">
+                <label for="name">Your Name*</label>
+                <input type="text" id="name" name="name" required placeholder="Your name">
+
+                <label for="email">Your Email*</label>
+                <input type="email" id="email" name="email" required placeholder="Your email address">
+
+                <fieldset:d>
+                    <legend>Type of Artwork</legend>
+                    <div>
+                        <input type="checkbox" id="simple" name="artwork[]" value="simple" />
+                        <label for="simple">Sketch/Drawing/Lineart</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" id="portrait" name="artwork[]" value="portrait" />
+                        <label for="portrait">Portrait</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" id="body" name="artwork[]" value="body" />
+                        <label for="body">Half/Full body</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" id="complex" name="artwork[]" value="complex" />
+                        <label for="complex">Complex Background</label>
+                    </div>
+                </fieldset>
+                    
+                    <label for="message">Message*</label>
+                    <textarea name="message" id="message" placeholder="Brief description of what you want"></textarea>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+
+
         </section>
 
 

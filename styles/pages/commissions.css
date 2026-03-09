@@ -48,3 +48,19 @@ body {
     top: 60%;
     font-size: larger;
 }
+
+
+.commission-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #000;
+    padding-block: 5rem;
+}
+
+.commission-form h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
