@@ -44,8 +44,8 @@ body {
     padding: 1rem;
     width: 55%;
     position: absolute;
-    left: 60%;
-    top: 60%;
+    bottom: 106px;
+    right: -60px;
     font-size: larger;
 }
 
@@ -63,4 +63,22 @@ body {
 .commission-form h2{
     font-size: 2rem;
     font-weight: 600;
+}
+
+
+footer{
+    background-color: #fff;
+    color: #000;
+}
+
+@media (max-width: 768px){
+
+  .commissions-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .commission-type img{
+    width: 100%;
+  }
+
 }
