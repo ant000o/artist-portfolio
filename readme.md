@@ -18,6 +18,16 @@ The goal of this project is to build a modern, minimal and scalable portfolio we
 Although this project is primarily for learning purposes, it is being built with scalability in mind so it can eventually be used as a real portfolio website.
 
 ---
+## Design Inspiration
+
+The design of this project was heavily inspired by the portfolio website of the digital artist **Rhienon**.
+
+While the code is written from scratch as a learning exercise, I aimed to recreate the minimal, high-end feel of their portfolio to better understand how to balance whitespace and typography in modern web design.
+
+Original website: https://rhienon.com/
+
+This project is a personal learning exercise and does not reuse any assets, artwork, or content from the original website. All artwork and images used here are personal assets.
+
 
 ## 🛠️ Tech Stack
 
