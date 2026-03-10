@@ -18,7 +18,8 @@ The goal of this project is to build a modern, minimal and scalable portfolio we
 Although this project is primarily for learning purposes, it is being built with scalability in mind so it can eventually be used as a real portfolio website.
 
 ---
-## Design Inspiration
+
+## 💡 Design Inspiration
 
 The design of this project was heavily inspired by the portfolio website of the digital artist **Rhienon**.
 
@@ -28,6 +29,7 @@ Original website: https://rhienon.com/
 
 This project is a personal learning exercise and does not reuse any assets, artwork, or content from the original website. All artwork and images used here are personal assets.
 
+---
 
 ## 🛠️ Tech Stack
 
@@ -57,3 +59,15 @@ Future iterations may include performance optimizations, animations improvements
 ---
 
 Made with dedication and continuous learning!!
+
+---
+
+## ⚠️ DISCLAIMER
+
+Some images are reused as I haven't received new assets yet, but this is the least important part of the project. This is just something to keep in mind regarding the current visual variety.
+
+---
+
+## DEMO
+
+https://transcendent-cactus-fff137.netlify.app/
